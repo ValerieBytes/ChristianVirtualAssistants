@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', serif;
     background-color: #f0eae0; /* light pastel background */
     color: #333; /* Dark text for readability */
+    font-size: 16px; /* Default font size */
 }
 
 header, section, footer {
@@ -14,8 +15,14 @@ header {
     text-align: center;
 }
 
-h1, h2 {
+h1 {
     color: #5d4b3c; /* Vintage font color */
+    font-size: 36px; /* Larger font size for main heading */
+}
+
+h2 {
+    color: #5d4b3c; /* Vintage font color */
+    font-size: 24px; /* Larger font size for subheadings */
 }
 
 #contact form {
@@ -26,6 +33,7 @@ h1, h2 {
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
+    font-size: 14px; /* Slightly smaller font for text area */
 }
 
 button {
@@ -34,6 +42,7 @@ button {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    font-size: 16px; /* Same as body font size */
 }
 
 button:hover {
